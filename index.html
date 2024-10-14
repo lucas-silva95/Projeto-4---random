@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Random</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div id="logo-img">
+    <img src="./assets/sort 1.png">
+    </div>
+
+    <h2>Sortear Um Número</h2>
+
+    <div id="inputs">
+        <div class="input-container" style="position: relative;">
+            <input class="numeroUm" required autocomplete="off" type="number" name="numero-min" id="numero-min">
+            <label class="label" for="numero-min">Entre</label>
+        </div>
+
+        <div class="input-container" style="position: relative;">
+            <input class="numeroDois" required autocomplete="off" type="number" name="numero-Min" id="numero-max">
+            <label class="label" for="numero-max">E</label>
+        </div>
+    </div>
+
+    <button class="sortear">
+    <span>Sortear</span>
+    </button>
+
+    <p class="format">Número Sorteado: 0</p>
+</body>
+<script src="./script.js"></script>
+</html>
